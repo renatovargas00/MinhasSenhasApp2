@@ -55,7 +55,7 @@ public class CadastroSenhaActivity extends AppCompatActivity {
 
         Toast.makeText(this,"Cadastro Realizado com Sucesso",Toast.LENGTH_LONG).show();
         Log.d(TAG,db.senhaDao().getAll().toString());
-        
+
 
     }
 
